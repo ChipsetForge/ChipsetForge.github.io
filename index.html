@@ -1,129 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>Aryan Biswas (@CuriousNom)</title>
-     <link rel="stylesheet" href="src/style.css">
-     <link rel="icon" href="https://te.legra.ph/file/ee6fc53375768ffe4ede6.jpg">
-     <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
-     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="description" content="Aryan's Portfolio | A simple web development project.">
-     <meta itemprop="name" content="Aryan's Portfolio">
-     <meta itemprop="description" content="Aryan's Portfolio | A simple web development project.">
-     <meta itemprop="image" content="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F4eg0k2leu5q91.jpg">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <meta content="Aryan's Portfolio" property="og:site_name">
-     <meta property="og:type" content="website">
-     <meta content="https://github.com/CuriousNom/CuriousNom/" property="og:url">
-     <meta content="Aryan (@CuriousNom)" property="og:title">
-     <meta content="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F4eg0k2leu5q91.jpg" property="og:image">
-     <meta content="Aryan's Portfolio | A simple web development project by Aryan." property="og:description">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuriousNom Unofficial Builds</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body id="body" class="dark" oncontextmenu="return false">
-     <div class="loader" id="loader">
-          <h1 data-value="CuriousNom" id="loader-text">Click me</h1>
-     </div>
-     <div id="particles-js"></div>
-     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-     <div class="wrapper">
-          <div class="toggle">
-               <input class="toggle-input" type="checkbox" />
-               <div class="toggle-bg"></div>
-               <div class="toggle-switch">
-                    <div class="toggle-switch-figure"></div>
-                    <div class="toggle-switch-figureAlt"></div>
-               </div>
-          </div>
-     </div>
-
-     <div class="modal">
-          <img src="https://te.legra.ph/file/ee6fc53375768ffe4ede6.jpg" alt="Eren">
-          <div class="close"></div>
-     </div>
-
-     <div id="container" class="container">
-          <input type="checkbox" name="" id="check">
-          <div class="card">
-               <div class="sidebar" id="sidebar">
-                    <a class="active" href="https://github.com/CuriousNom/CuriousNom/" target="_blank">Github</a>
-                    <a class="active" href="https://t.me/The_Riderrr" target="_blank" >Telegram</a>
-                    <a class="active" href="https://www.instagram.com/aryan_biswas_07/" target="_blank">Insta</a>
-                    <a class="active" href="https://github.com/Matrixx-Devices/device_xiaomi_violet.git" target="_blank">Matrixx Violet</a>
-               </div>
-               <div class="header" onclick="toggle()">
-                    <label for="check" class="checkbtn" id="chkbtn">
-                         <div class="hamburger-menu">
-                              <div class="center"></div>
-                         </div>
-                    </label>
-                    <a href="mailto:aryanbiswas7585@gmail.com" class="mail">
-                         <i class="far fa-envelope"></i>
-                    </a>
-                    <div class="main">
-                         <div class="image">
-                              <div class="hover">
-                                   <i class="fas fa-camera fa-2x"></i>
-                              </div>
-                         </div>
-                         <h3 class="name">Aryan</h3>
-                         <h3 class="sub-name">@CuriousNom</h3>
-                    </div>
-               </div>
-
-               <div class="content">
-                    <div class="left">
-                         <div class="about-container">
-                              <h3 class="title">About</h3>
-                              <p class="text">~ Official Project Matrixx Violet Maintainer ~ <a class='text' style="text-decoration: none" href="https://matrixx-devices.github.io/mi/violet.html">@RomCentralHub</a></p>
-                              <p class="text">• Lubuntu | Github | Tech •</p>
-                              <p class="text"></p>
-                         </div>
-                         <div class="icons-container">
-                              <a href="https://github.com/CuriousNom" class="icon">
-                                   <i class="fab fa-github"></i>
-                              </a>
-                              <a href="https://telegram.dog/The_Riderrr" class="icon">
-                                   <i class="fab fa-telegram"></i>
-                              </a>
-                              <a href="https://instagram.com/aryan_biswas_07/" class="icon">
-                                   <i class="fab fa-instagram"></i>
-                              </a>
-                         </div>
-                         <div class="buttons-wrap">
-                              <div class="follow-wrap">
-                                   <a href="https://github.com/CuriousNom" class="follow">Follow</a>
-                              </div>
-                              <div class="share-wrap">
-                                   <a href="https://telegram.dog/The_Riderrr" class="share">Contact</a>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </div>
-     </div>
-     
-     <script>
-          document.onkeydown = function (e) {
-               if (event.keyCode == 123) {
-                    return false;
-               }
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-                    return false;
-               }
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-                    return false;
-               }
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-                    return false;
-               }
-               if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                    return false;
-               }
-          }
-     </script>
-     <script src="src/app.js"></script>
+<body>
+    <header>
+        <h1>CuriousNom Unofficial Builds</h1>
+    </header>
+    <main>
+        <section id="devices">
+            <h2>Devices</h2>
+            <ul>
+                <li><a href="#violet">Redmi Note 7 Pro (violet)</a></li>
+                <li><a href="#gta4l">Samsung Galaxy Tab A7 (gta4l)</a></li>
+                <li><a href="#gta4lwifi">Samsung Galaxy Tab A7 WiFi (gta4lwifi)</a></li>
+            </ul>
+        </section>
+        <section id="violet">
+            <h3>Redmi Note 7 Pro (violet)</h3>
+            <p>Links to custom ROM builds for Redmi Note 7 Pro.</p>
+        </section>
+        <section id="gta4l">
+            <h3>Samsung Galaxy Tab A7 LTE (gta4l)</h3>
+            <p>Links to custom ROM builds for Samsung Galaxy Tab A7 LTE.</p>
+        </section>
+        <section id="gta4lwifi">
+            <h3>Samsung Galaxy Tab A7 WiFi (gta4lwifi)</h3>
+            <p>Links to custom ROM builds for Samsung Galaxy Tab A7 WiFi.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CuriousNom. All rights reserved.</p>
+    </footer>
 </body>
 </html>
